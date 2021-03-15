@@ -3,9 +3,8 @@
 
 
 
+Problem statement:
 
-
-problem statement:
 The program should essentially prompt the user to enter a one letter command, and process the command as follows:
 
 a (add), which should then read in one of:
@@ -18,7 +17,9 @@ d, which should then read the next string as dealer name, the following integer 
 l (list), which should then read in one of:
 c, which should list all of the cars across all dealerships. Each car should have its VIN, mileage, dealer name, and price printed.
 d, which should listallof the dealers. Each dealer printed out should include its name,its zipcode, and its phone number.
+
 f (find), which should also read in one of the following characters:
 m, followed by the name of a manufacturer. It should then list all cars made by that manufacturer.
 z, followed by a zipcode. It should list all cars available at dealers in that zip code.
+
 q (quit), which should stop the running program.
